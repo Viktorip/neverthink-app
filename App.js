@@ -71,7 +71,7 @@ const App = () => {
   return (
     <View style={styles.screen}>
       <YouTube
-        apiKey="AIzaSyAayLD24HeCrOAwSbh0jBV7O7ZWoJOCyTM"
+        apiKey="<redacted>"
         videoIds={channels[selectedChannelId].playlist}
         play
         loop
